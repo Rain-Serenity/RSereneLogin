@@ -1,0 +1,8 @@
+{
+  "id": "RSereneLogin",
+  "name": "RSereneLogin",
+  "version": "1.0-SNAPSHOT",
+  "authors": ["Chosen_1st"],
+  "description": "正版以及LittleSkin 登录插件",
+  "main": "fun.ksnb.rserenelogin.velocity.main.RSereneLoginVelocity"
+}

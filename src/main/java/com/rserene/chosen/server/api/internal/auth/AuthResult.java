@@ -1,0 +1,25 @@
+package com.rserene.chosen.server.api.internal.auth;
+
+import com.rserene.chosen.server.api.profile.GameProfile;
+import org.jetbrains.annotations.ApiStatus;
+
+@ApiStatus.Internal
+public interface AuthResult {
+   GameProfile getResponse();
+
+   String getKickMessage();
+
+   Result getResult();
+
+   public static enum Result {
+      ALLOW,
+      DISALLOW_BY_YGGDRASIL_AUTHENTICATOR,
+      DISALLOW_BY_VALIDATE_AUTHENTICATOR,
+      ERROR;
+
+      // $FF: synthetic method
+      private static Result[] $values() {
+         return new Result[]{ALLOW, DISALLOW_BY_YGGDRASIL_AUTHENTICATOR, DISALLOW_BY_VALIDATE_AUTHENTICATOR, ERROR};
+      }
+   }
+}
