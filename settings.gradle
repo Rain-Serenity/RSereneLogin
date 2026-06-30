@@ -1,1 +1,23 @@
-rootProject.name = 'RSereneLogin'
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url = uri("https://maven.aliyun.com/repository/public") }
+        mavenCentral()
+        maven { url = uri("https://repo.papermc.io/repository/maven-public/") }
+        maven { url = uri("https://libraries.minecraft.net") }
+    }
+}
+
+rootProject.name = "RSereneLogin"
+
+include("common")
+include("core")
+include("velocity-injector")
+include("velocity")

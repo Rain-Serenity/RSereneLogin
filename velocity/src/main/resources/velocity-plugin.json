@@ -1,0 +1,8 @@
+{
+  "id": "rserenelogin",
+  "name": "RSereneLogin",
+  "version": "1.0-SNAPSHOT",
+  "authors": ["Chosen_1st"],
+  "description": "正版与 LittleSkin 登录插件，支持 Minecraft/Paper 26.1.2。",
+  "main": "com.rserene.chosen.server.velocity.main.RSereneLoginVelocity"
+}
