@@ -32,6 +32,6 @@ public class CommandHandler {
 
    public void register(String cmdName) {
       CommandManager commandManager = this.multiLoginVelocity.getServer().getCommandManager();
-      commandManager.register(commandManager.metaBuilder(cmdName).build(), this.simpleCommand);
+      commandManager.register(commandManager.metaBuilder(cmdName).aliases("rsl").build(), this.simpleCommand);
    }
 }

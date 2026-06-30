@@ -87,15 +87,15 @@ sql:
 
   # 数据库名称
   #
-  # 默认值 ‘lilogin’
-  database: lilogin
+  # 默认值 ‘rslogin’
+  database: rslogin
 
   # 使用的数据表前缀。
   #
   # 使用时将会补充后缀符号 ‘_’
   # 请不要随意更改它，否则数据将消失
-  # 默认值 ‘lilogin’
-  tablePrefix: lilogin
+  # 默认值 ‘rslogin’
+  tablePrefix: rslogin
 
   # 高级设定，指定连接 URL
   #

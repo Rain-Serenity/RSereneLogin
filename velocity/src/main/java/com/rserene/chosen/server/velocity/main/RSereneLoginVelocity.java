@@ -71,7 +71,7 @@ public class RSereneLoginVelocity implements IPlugin {
       }
 
       new GlobalListener(this).register();
-      new CommandHandler(this).register("RSereneLogin");
+      new CommandHandler(this).register("rserenelogin");
       this.server.getEventManager().register(this, PostLoginEvent.class, (AwaitingEventExecutor<PostLoginEvent>)postLoginEvent -> EventTask.withContinuation(continuation -> {
          try {
             if (postLoginEvent.getPlayer().getProtocolVersion().getProtocol() >= 761) {

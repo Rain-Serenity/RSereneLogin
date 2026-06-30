@@ -35,7 +35,8 @@ public class CommandHandler implements CommandAPI {
    }
 
    public void init() {
-      this.dispatcher.register(new RootCommand(this).register(this.literal("RSereneLogin")));
+      this.dispatcher.register(new RootCommand(this).register(this.literal("rserenelogin")));
+      this.dispatcher.register(new RootCommand(this).register(this.literal("rsl")));
       CommandSyntaxException.BUILT_IN_EXCEPTIONS = builtInExceptions = new BuiltInExceptions(core);
    }
 
